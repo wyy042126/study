@@ -1,1 +1,1 @@
-https://wyy042126.github.io/study/register.html
+https://wyy042126.github.io/study/P_register.html
