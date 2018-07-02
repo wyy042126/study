@@ -1,0 +1,292 @@
+
+*{
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 70px;
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #dddddd;  
+}
+.top .header{  
+    width: 1150px;
+    height: 70px;
+    margin: 0 auto;
+}
+.top .header img{
+    position: relative;
+    top: 20px;
+    width: 180px;
+    height: 30px;
+}
+.top .header .text{
+    position: relative;
+    float: right;
+}
+.top .header .text li{
+    display: inline;
+    margin-left: 55px;
+    line-height: 70px;
+}
+.top .header .text li a{
+    color: #333333;
+    text-decoration: none;
+    font-size:16px;
+    font-family:PingFangSC-Light;
+    color:rgba(51,51,51,1);
+}
+.main{
+    position: relative;
+    top: 65px;
+    margin: 0 auto;
+    width:720px;
+    border: 1px solid #dddddd;
+    border-top-style: none;
+}
+.footer{
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    width: 600px;
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    color:rgba(51,51,51,1);
+    text-align: center;
+}
+.footer p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size:14px;
+    padding-bottom: 20px;
+}
+.footer p a{
+    color:#A40000;
+    text-decoration: none;
+}
+
+input[type="text"]{
+    height:40px;
+    width: 350px;
+    background:rgba(255,255,255,1);
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    border: 1px solid #dddddd;
+    padding-left: 16px;
+}
+
+div a{
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    color:rgba(153,153,153,1);
+}
+.main .main-topbox{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 10px;
+    background:rgba(74,136,247,1);
+
+}
+.main .main-topbox .box1{
+    float: left;
+    width: 270px;
+    height:100%;
+    position: relative;
+    background:rgba(0,104,183,1);
+}
+.box4{
+    position: absolute;
+    top: 50px;
+    left: 268px;
+    width: 2px;
+    height: 665px;
+    border-style: dashed;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-width: 2px;
+    border-right-color: #dddddd;  
+}
+.main-left{
+    position: relative;
+    top: 5px;
+    width: 270px;
+    float: left;
+    border: none;
+}
+.main-right{
+    position: relative;
+    width: 440px;
+    float: left;
+    border: none;
+  
+}
+.main-left .box{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 55px;
+    width: 190px;
+    background-color: #ffffff;
+    float: left;
+}
+.main-left .box img{
+    position: relative;
+    left: 0;
+    float: left;
+}
+.main-left .box .text{
+    position: relative;
+    left: 20px;
+    width: 130px;
+    font-family:PingFangSC-Light;
+    color:rgba(153,153,153,1);
+    text-align: center;
+    float: left;
+}
+.main-left>.box>.text>p:first-child{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+.main-left>.box>.text>p:last-child{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+.main-right .title{
+    float: left;
+    font-size:24px;
+    width: 100%;
+    text-align: center;
+    font-family:PingFangSC-Regular;
+    color:rgba(74,136,247,1);
+    position: relative;
+    margin-top: 45px;
+    padding-bottom: 35px;
+}
+.main-right .input1,.main-right .input2{
+    position: relative;
+    left: 35px;
+    margin-top: 25px;
+}
+
+.main-right .input1 input[type="text"],.main-right .input2 input[type="text"]{
+    height:40px;
+    width: 380px;
+    background:rgba(255,255,255,1);
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    border: 1px solid #cccccc;
+    text-indent: 16px;
+    padding: 0;
+}
+.main-right .input2 input[type="text"]{
+    width: 280px;
+    float: left;
+}
+
+.main-right .tt{
+    position: relative;
+    font-size:16px;
+    font-family:PingFangSC-Regular;
+    color:rgba(51,51,51,1);
+    margin-bottom: 10px; 
+}
+.main-right .input2 .yzm{
+    float: left;
+    position: relative;
+    left: 10px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+.main-right .input2 button{
+    width:90px;
+    height:40px;
+    background:rgba(74,136,247,1);
+    border: none;
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    color:rgba(255,255,255,1);
+    float: left;
+    position: relative;
+    left: 10px;
+}
+.main-right .bottombox{
+    float: left;
+
+    position: relative;
+    left: 35px;
+    border: 1px solid;
+  padding-bottom: 40px;
+}
+.main-right .checkbox{
+    position: relative;
+    left: 35px;
+    margin-top: 15px;
+    float: left;
+    vertical-align: middle;
+
+}
+.main-right .checkbox a{
+    font-size:14px;
+    font-family:PingFangSC-Light;
+    color:rgba(153,153,153,1);  
+    vertical-align: middle;
+}
+.main-right .checkbox input[type="checkbox"]{
+position: relative;
+margin-right: 15px;
+padding: 0;
+vertical-align: middle;
+}
+
+.main-right  input[type="submit"]{
+    position: relative;
+    float: left;
+    left: 35px;
+    border: 1px solid;
+    margin-top: 30px;
+    border: none;
+    padding: 0;
+    background-color: #4A88F7;
+    width: 380px;
+    height: 40px;
+    color: #ffffff;
+    font-size:16px;
+}
+.main-right  .text{
+    position: relative;
+    left: 135px;
+    margin-top: 25px;
+    padding-bottom: 40px;
+    float: left;
+}
+.main-right .text p{
+    position: relative;
+    font-size:16px;
+    font-family:PingFangSC-Light;
+    color:rgba(51,51,51,1);
+    margin: 0;
+}
+.main-right .text p a{
+    text-decoration: none;
+    font-size:16px;
+    color: #4A88F7;
+}
