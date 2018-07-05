@@ -412,9 +412,7 @@ body{
 .main .box3 .box3 p .checked{
     background-color: #4A88F7;
 }
-.main .box3 .box3 p .index-end{
-    padding: 5 15px;
-}
+
 .footer{
     position: relative;
     margin-top: 90px;
