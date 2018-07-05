@@ -3,7 +3,7 @@
 求职个人中心：https://wyy042126.github.io/study/P_jobsearch.html
 
 
-简历中心:https://wyy042126.github.io/study/jobcenter.html  
+简历中心:https://wyy042126.github.io/study/jobcenter.html      
 
 
 
