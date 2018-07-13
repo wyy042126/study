@@ -68,10 +68,12 @@ body{
     display: inline;
     margin-left: 50px;
 }
+
 .top2 .header2{
     width: 1150px;
     margin: 0 auto;
     height: 70px;
+    overflow: hidden;
 }
 .top2 .header2 .left{
     margin: 0;
@@ -88,7 +90,7 @@ body{
     padding: 0;
     margin: 0;
     list-style-type: none;
-    height: 70px;
+    line-height: 70px;
 }
 
 .top2 .header2 .right  li  a{
@@ -187,19 +189,35 @@ body{
 }
 .main .box1 .search input{
     position: relative;
-    text-indent: 30px;
+    left: 30px;
     float: left;
     height: 56px;
     width: 525px;
     font-size:16px;
     border:none;
     font-family:PingFangSC-Light;
-    color:rgba(153,153,153,1);
     margin: 0;
     padding: 0;
 }
 .main .box1 .search input:focus{
     outline: none;
+}
+
+.main .box1 .search input::-webkit-input-placeholder{
+    color: #999999;
+}        
+.main .box1 .search input:-moz-placeholder{
+    color: #999999;
+}                  
+.main .box1 .search input::-moz-placeholder{
+    color: #999999;
+}                  
+.main .box1 .search input:-ms-input-placeholder            
+ {
+    color: #999999;
+} 
+.main .box1 .search input::placeholder{
+    color: #999999;
 }
 .main .box1 button{
     position: relative;
@@ -295,6 +313,7 @@ body{
     width: 1150px;
     margin-top: 10px;
     background-color: #ffffff;
+    overflow: hidden;
 }
 .main .box3 .box1{
     float: left;
@@ -344,6 +363,7 @@ body{
     margin: 20px;
     margin-bottom: 15px;
     border: 0;
+    overflow: hidden;
 
 }
 .main .box3 .box2 .img{
@@ -355,6 +375,7 @@ body{
     margin-bottom: 10px;
     border: 0;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .main .box3 .box2 .img img{
@@ -398,21 +419,27 @@ body{
 .main .box3 .box3 p{
     position: relative;
     margin: 10px 0 0 340px;
+    padding: 0;
 }
 .main .box3 .box3 p a{
     float: left;
     padding: 5px 10px;
+    line-height: 20px;
     font-size:14px;
     margin-right: 10px;
     font-family:PingFangSC-Light;
     color:rgba(255,255,255,1);
     background:rgba(159,192,251,1);
     cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
 .main .box3 .box3 p .checked{
     background-color: #4A88F7;
 }
-
+.main .box3 .box3 p a:first-child,.main .box3 .box3 p a:last-child{
+    padding: 5px 15px;
+}
 .footer{
     position: relative;
     margin-top: 90px;
@@ -469,6 +496,9 @@ body{
     border-right-width: 1px;
     border-right-color: #ffffff;  
     transform: rotate(45deg); 
+    -webkit-transform:  rotate(45deg);
+    -o-transform:  rotate(45deg);
+    -moz-transform:  rotate(45deg);
     margin-left: 5px;
     display: inline-block;
 }
